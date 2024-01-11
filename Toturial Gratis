@@ -1,0 +1,125 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/REDzHUB/LibraryV2/main/redzLib")))()
+
+MakeWindow({
+  Hub = {
+    Title = "Pirate King Hub",
+    Animation = "by : MadHuk"
+  },
+  Key = {
+    KeySystem = true,
+    Title = "Key System",
+    Description = "pirateKey",
+    KeyLink = "",
+    Keys = {"YOUTUBE"},
+    Notifi = {
+      Notifications = true,
+      CorrectKey = "Running the Script...",
+      Incorrectkey = "The key is incorrect",
+      CopyKeyLink = "Copied to Clipboard"
+    }
+  }
+})
+
+ MinimizeButton({
+  Image = "",
+  Size = {40, 40},
+  Color = Color3.fromRGB(10, 10, 10),
+  Corner = true,
+  Stroke = false,
+  StrokeColor = Color3.fromRGB(255, 0, 0)
+})
+
+ local Main = MakeTab({Name = "Main"})
+
+ AddButton(Main, {
+  Name = "Speed (30)",
+  Callback = function()
+    _G.WS = 30;
+local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+Humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+    Humanoid.WalkSpeed = _G.WS;
+end)
+Humanoid.WalkSpeed = _G.WS;
+
+  end
+})
+
+ AddButton(Main, {
+  Name = "Speed (50)",
+  Callback = function()
+    _G.WS = 50;
+local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+Humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+    Humanoid.WalkSpeed = _G.WS;
+end)
+Humanoid.WalkSpeed = _G.WS;
+
+  end
+})
+
+ AddButton(Main, {
+  Name = "Speed (200)",
+  Callback = function()
+    _G.WS = 200;
+local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+Humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+    Humanoid.WalkSpeed = _G.WS;
+end)
+Humanoid.WalkSpeed = _G.WS;
+
+  end
+})
+
+ AddButton(Main, {
+  Name = "Speed (800)",
+  Callback = function()
+    _G.WS = 800;
+local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+Humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+    Humanoid.WalkSpeed = _G.WS;
+end)
+Humanoid.WalkSpeed = _G.WS;
+
+  end
+})
+
+ AddButton(Main, {
+  Name = "Speed (4k)",
+  Callback = function()
+    _G.WS = 4000;
+local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+Humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+    Humanoid.WalkSpeed = _G.WS;
+end)
+Humanoid.WalkSpeed = _G.WS;
+
+  end
+})
+
+ AddButton(Main, {
+  Name = "Speed (8k)",
+  Callback = function()
+    _G.WS = 8000;
+local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+Humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+    Humanoid.WalkSpeed = _G.WS;
+end)
+Humanoid.WalkSpeed = _G.WS;
+
+  end
+})
+
+ AddButton(Main, {
+  Name = "Speed (12k)",
+  Callback = function()
+    _G.WS = 12000;
+local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+Humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+    Humanoid.WalkSpeed = _G.WS;
+end)
+Humanoid.WalkSpeed = _G.WS;
+
+  end
+})
+
+ 
